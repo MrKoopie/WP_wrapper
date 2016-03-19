@@ -9,7 +9,7 @@ php:
 
 before_install:
   - composer selfupdate
-  - composer install
+  - composer install --dev
 
 script:
    - bin/phpspec run --format=pretty
