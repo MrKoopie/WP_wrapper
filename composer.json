@@ -1,7 +1,7 @@
 {
     "name": "mrkoopie/wp_wrapper",
     "description": "Wraps WordPress functions into mockable objects. Used for WP_ajaxfilter.",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "autoload": {
         "psr-4": {
             "MrKoopie\\WP_wrapper\\": "src"
