@@ -1,5 +1,7 @@
 # WP_wrapper
-
+[![Total Downloads](https://img.shields.io/packagist/dt/mrkoopie/wp_wrapper.svg)](https://packagist.org/packages/mrkoopie/wp_wrapper)
+[![Latest Stable Version](https://img.shields.io/packagist/v/mrkoopie/wp_wrapper.svg)](https://packagist.org/packages/mrkoopie/wp_wrapper)
+![Build status https://travis-ci.org/MrKoopie/WP_wrapper.svg?branch=master](https://travis-ci.org/MrKoopie/WP_wrapper.svg?branch=master)
 By default WordPress has many non-mockable functions such as register_taxonomy(). By implementing this wrapper you can create tests that use mocks instead of a real WordPress installation.
 
 ## How to install
