@@ -12,4 +12,4 @@ before_install:
   - composer install --dev
 
 script:
-   - bin/phpspec run --format=pretty
+   - vendor/bin/phpspec run --format=pretty
