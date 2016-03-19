@@ -14,7 +14,7 @@ class WP_wrapperSpec extends ObjectBehavior
 
     function it_can_get_the_date()
     {
-    	$this->print_r('Y',1)
+    	self::print_r('Y',1)
     		 ->shouldBeEqualTo(print_r('Y', 1));
     }
 }
