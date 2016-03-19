@@ -1,0 +1,6 @@
+formatter.name: pretty
+suites:
+    todo_suite:
+        namespace: MrKoopie\WP_wrapper
+        psr4_prefix: MrKoopie\WP_wrapper
+        src: src

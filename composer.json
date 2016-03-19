@@ -1,0 +1,22 @@
+{
+    "name": "mrkoopie/wp_wrapper",
+    "description": "Wraps WordPress functions into mockable objects. Used for WP_ajaxfilter.",
+    "autoload": {
+        "psr-4": {
+            "MrKoopie\\WP_wrapper\\": "src"
+        }
+    },
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniel Koop",
+            "email": "mail@danielkoop.me"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "require-dev": {
+        "phpspec/phpspec": "^2.4"
+    }
+}
