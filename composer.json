@@ -14,8 +14,6 @@
             "email": "mail@danielkoop.me"
         }
     ],
-    "minimum-stability": "stable",
-    "require": {},
     "require-dev": {
         "phpspec/phpspec": "^2.4"
     }
