@@ -23,6 +23,13 @@ class WP_wrapper
 	 */
 	public function __call($function, $arguments)
 	{
+		/**
+		 * Functions like exit or die do not work with call_user_func_array
+		 */
+		if($function == 'exit' || $function == 'die')
+		{
+			exit($arguments);
+		}
 		return call_user_func_array( '\\'.$function, $arguments);
 	}
 }
