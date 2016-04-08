@@ -28,7 +28,7 @@ class WP_wrapper
 		 */
 		if($function == 'exit' || $function == 'die')
 		{
-			exit($arguments);
+			exit($arguments[0]);
 		}
 		return call_user_func_array( '\\'.$function, $arguments);
 	}
